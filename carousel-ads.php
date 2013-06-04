@@ -8,6 +8,7 @@ class Carousel_Ads{
 	}
 
 	function scripts() {
+		wp_enqueue_style( 'carousel-ad', get_template_directory_uri() . '/css/carousel.css' );
 		wp_enqueue_script( 'carousel-ad', get_template_directory_uri() . '/js/carousel-ads.js', array( 'jquery' ), null, true );
 
 		// Define directory for js file

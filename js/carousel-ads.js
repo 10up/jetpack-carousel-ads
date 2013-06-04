@@ -80,7 +80,7 @@
 					.data('desc', '')
 					.data('caption', '')
 					.data('attachment-id', '')
-					.data('orig-size', '494, 347')
+					.data('orig-size', '300, 250')
 					.data('comments-opened', 0)
 					.data('image-meta', '')
 					.data('medium-file', '')
