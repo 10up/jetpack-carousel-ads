@@ -72,7 +72,6 @@
 
 		SELF.ad = function() {
 			var container = document.createElement( 'div' ),
-			    link      = document.createElement( 'a' ),
 			    img       = document.createElement( 'img');
 			container.className = 'jp-carousel-slide ad';
 			// Define target for ad
